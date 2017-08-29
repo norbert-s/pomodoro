@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Merienda);
+@import url(https://fonts.googleapis.com/css?family=Gravitas+One);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #4682B4, #90EE90);
+}
+
+p {
+  font-family: "Gravitas One", cursive;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.3em;
+  display: inline;
+  font-family: "Merienda", cursive;
+}
+
+#wrap {
+  max-width: 600px;
+  max-height: 550px;
+  border: 1px solid white;
+  margin: auto;
+  box-shadow: 5px 5px 5px;
+  padding-bottom: 30px;
+}
+
+#upper-body {
+  display: flex;
+  max-width: 600px;
+  height: 150px;
+  flex-direction: row;
+  align-content: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#display {
+  border: 1px solid white;
+  border-radius: 50%;
+  max-width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.box-timer-break {
+  width: 280px;
+  text-align: center;
+}
+
+#breakDown, #breakUp, #timerDown, #timerUp {
+  margin-top: 20px;
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px;
+}
+
+button {
+  margin-left: 5px;
+  margin-right: 5px;
+  background: white;
+  border: none;
+  background: white;
+}
+
+button:hover {
+  border: none;
+}
+
+#startreset {
+  text-align: center;
+}
+
+#which_is_on {
+  display: block;
+}
+
+.btnDef {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px 2px;
+  border-radius: 3px;
+}
+
+span {
+  font-size: 1.6em;
+}
+
+#skipBreak {
+  width: 90px;
+}
+
+#skipSession {
+  width: 90px;
+}

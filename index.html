@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<html>
+  <head>
+    	<meta charset="UTF-8">
+   	 	<title>title</title>
+ 
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+		<link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+  <h1>Pomodoro Clock</h1>
+  <div id="wrap">
+
+
+  <div id="upper-body"> <!--felso csík--timer és break, beállító gombokkal bezárólag-->
+
+<div class="box-timer-break">
+  <p>Timer</p>
+  <span id="tMinutes"></span>
+  <span id="tSeconds"></span><br>
+  <button  class="btn-up-down" id="timerDown">-</button>
+  <button class="btn-up-down" id="timerUp">+</button>
+</div>
+
+
+<div class="box-timer-break">
+  <p>Break</p>
+  
+  <span id="bMinutes"></span>
+  <span id="bSeconds"></span><br>
+  
+  <button class="btn-up-down" id="breakDown">-</button>
+  <button class="btn-up-down" id="breakUp">+</button>
+  
+
+</div>
+
+</div>
+<div id="display">
+<h2 id="displayMinutes"></h2>
+<h2 id="displaySeconds"><h2>
+
+</div>
+<div id="startreset">
+<p id="which_is_on"></p>
+  <!--<button class="btnDef" id="skipSession">End Session</button>-->
+<button class="btnDef" id="tStart">Start</button>
+<button class="btnDef" id="tPause">Pause</button>
+<button class="btnDef" id="tReset">Reset</button>
+<!--<button class="btnDef" id="skipBreak">No Break</button>-->
+</div>
+</div>
+<script src="pomodoro.js"></script>
+  </body>
+</html>
